@@ -1,0 +1,6 @@
+runtime: python27
+api_version: 1
+threadsafe: false   # multi thread to acess the info
+handlers:
+- url: /   #any get or post url is fired on browser then what to do
+  script: main.app
